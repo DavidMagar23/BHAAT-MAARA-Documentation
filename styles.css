@@ -5,12 +5,19 @@
     scroll-behavior: smooth;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
     body {
-        background-color: black;
-        color: white;
-        font-size: 12px;
+        font-size: 12px;   
     }
+
+    .nav-link {
+        font-size: 10px;
+    }
+
+    #navbar {
+        padding-top: 3px;
+    }
+    
 }
 
 body {
